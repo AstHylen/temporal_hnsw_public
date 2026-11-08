@@ -1,0 +1,7 @@
+snapshot,processed_bytes_identical,metadata_bytes_identical,embedding_bytes_identical,index_bytes_identical,original_sum_seconds,reproduced_sum_seconds
+D0,True,True,False,False,33.507128,17.50874
+D1,True,True,False,False,34.027886,17.340517
+D2,True,True,False,False,34.504916,17.70164
+D3,True,True,False,False,34.517386,17.641485
+D4,True,True,False,False,35.224786,17.99185
+D5,True,True,False,False,35.287939,18.254214

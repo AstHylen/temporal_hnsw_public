@@ -1,0 +1,45 @@
+# Main experimental protocol. Freeze this file before evaluating retrieval results.
+experiment:
+  name: temporal_hnsw_wikipedia
+  seed: 42
+  target_articles: 500
+  candidate_articles: 650
+  min_initial_words: 200
+  min_candidates_for_full_run: 500
+  top_k: 5
+  bootstrap_replicates: 2000
+snapshots:
+  - {label: D0, timestamp: '2024-01-01T00:00:00Z'}
+  - {label: D1, timestamp: '2024-07-01T00:00:00Z'}
+  - {label: D2, timestamp: '2025-01-01T00:00:00Z'}
+  - {label: D3, timestamp: '2025-07-01T00:00:00Z'}
+  - {label: D4, timestamp: '2026-01-01T00:00:00Z'}
+  - {label: D5, timestamp: '2026-07-01T00:00:00Z'}
+preprocessing:
+  target_words_per_chunk: 100
+  overlap_words: 0
+  min_chunk_words: 8
+embeddings:
+  encoder: sentence_transformer
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+  # Immutable model commit verified against the official Hugging Face model API.
+  model_revision: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+  batch_size: 64
+  normalize: true
+hnsw:
+  space: cosine
+  M: 16
+  ef_construction: 200
+  ef_search: 100
+  random_seed: 42
+  num_threads: 1
+  repetitions: 3
+annotations:
+  changed_queries: 20
+  stable_queries: 20
+wikipedia:
+  language: en
+  min_request_interval_seconds: 0.35
+  timeout_seconds: 60
+  max_attempts: 7
+  maxlag_seconds: 5

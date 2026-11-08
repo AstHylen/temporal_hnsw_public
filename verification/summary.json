@@ -1,0 +1,13 @@
+{
+  "original_total_files": 47835,
+  "original_research_files": 4022,
+  "original_research_hashes_unchanged": 4022,
+  "distance_rows_differing": 2065,
+  "max_absolute_cosine_distance_difference": 7.100000000148654e-07,
+  "ranked_evidence_sets_changed": 0,
+  "tests": "38 passed",
+  "rescore": "PASS",
+  "full": "PASS",
+  "original_python": "3.12.8",
+  "verification_python": "3.14.2"
+}

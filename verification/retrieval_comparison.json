@@ -1,0 +1,8 @@
+{
+  "byte_identical_hits": false,
+  "changed_ranked_sets": [],
+  "original_sets": 480,
+  "policy": "Exact ranked content and frozen question/answer identity only; distances may differ without changing evidence. Original import/context hashes are preserved in reference/.",
+  "reproduced_sets": 480,
+  "reused_complete_set_judgments": 89
+}

@@ -1,0 +1,11 @@
+.venv*/
+outputs/
+.cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+verification/original_inventory.json
+verification/install*.log
+# Local verification transcripts may contain machine paths; publish the sanitized report.
+verification/*.log

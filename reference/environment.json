@@ -1,0 +1,27 @@
+{
+  "config_sha256": "90756f452c9d5456a28163c913c0624a387570267308127f5b107e1175f34223",
+  "configured_experiment_seed": 42,
+  "cpu_count": 10,
+  "disclosure": "Code developed with assistance from ChatGPT (OpenAI); scientific validation is the user's responsibility.",
+  "git_commit": "0f5bb5eba0965217dff1af23c81963a6e8095369",
+  "machine": "arm64",
+  "package_versions": {
+    "PyYAML": "6.0.3",
+    "hnswlib": "0.8.0",
+    "matplotlib": "3.11.2",
+    "mwparserfromhell": "0.7.2",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "pytest": "9.2.0",
+    "requests": "2.34.2",
+    "sentence-transformers": "5.7.0",
+    "torch": "2.15.0"
+  },
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "processor": "arm",
+  "python": "3.12.8 (main, Jan 27 2026, 13:17:13) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "recorded_at_utc": "2026-11-08T00:08:13.239282+00:00",
+  "torch_cuda_available": false,
+  "torch_cuda_device": null,
+  "note": "Original execution environment; local checkout paths and development status omitted."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "manifest_entries_verified": 26,
+  "protected_files_unchanged": 32,
+  "review_changes_notes_only": true,
+  "all_480_outcomes_exact": true,
+  "hits": 392,
+  "misses": 88,
+  "comparisons": {
+    "retrieval_metrics.csv": {
+      "rows": 36,
+      "all_rows_exact": true,
+      "bytes_exact": true
+    },
+    "paired_differences.csv": {
+      "rows": 18,
+      "all_rows_exact": true,
+      "bytes_exact": true
+    }
+  },
+  "changed_existing_files": [
+    "reproduce.py",
+    "README.md",
+    "tests/test_common.py",
+    "tests/test_scoring.py",
+    "tests/test_reproduction.py",
+    "tests/test_outcome_review.py",
+    "temporal_hnsw/outcome_review.py",
+    "temporal_hnsw/preprocess.py",
+    "temporal_hnsw/scoring.py",
+    "temporal_hnsw/__init__.py",
+    "temporal_hnsw/common.py",
+    "temporal_hnsw/retrieval.py",
+    "temporal_hnsw/indexing.py",
+    "temporal_hnsw/annotations.py",
+    "verification/REPORT.md",
+    "frozen/manifest.json",
+    "frozen/review/top5_decisions.csv",
+    "frozen/review/passage_decisions.csv"
+  ]
+}

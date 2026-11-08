@@ -1,0 +1,13 @@
+snapshot,arm,ann_recall_at_5,num_questions,num_index_vectors
+D0,stale,1.0,40,5923
+D0,rebuilt,1.0,40,5923
+D1,stale,1.0,40,5923
+D1,rebuilt,1.0,40,6008
+D2,stale,1.0,40,5923
+D2,rebuilt,1.0,40,6048
+D3,stale,1.0,40,5923
+D3,rebuilt,1.0,40,6060
+D4,stale,1.0,40,5923
+D4,rebuilt,1.0,40,6175
+D5,stale,1.0,40,5923
+D5,rebuilt,1.0,40,6244

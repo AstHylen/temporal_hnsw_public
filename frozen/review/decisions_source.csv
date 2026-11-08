@@ -1,0 +1,53 @@
+candidate_id,question_decision,category_decision,six_snapshot_answers,single_chunk_support,wording,duplicate_source_decision,reviewer,rationale
+C01,approved,state_value,approved,approved,approved,no_duplicate,human,ok
+C02,approved,state_value,approved,approved,approved,no_duplicate,human,ok
+C03,approved,state_value,approved,approved,approved,no_duplicate,human,ok
+C04,approved,state_value,approved,approved,revised,no_duplicate,human,Which WNBA team is Laeticia Amihere affiliated with?
+C05,approved,state_value,approved,approved,approved,no_duplicate,human,ok
+C06,approved,state_value,approved,approved,approved,no_duplicate,human,ok
+C07,approved,state_value,approved,approved,approved,duplicate_source,human,Same article as C21
+C08,approved,state_value,approved,approved,approved,no_duplicate,human,ok
+C09,approved,reported_statistics,approved,approved,approved,duplicate_source,human,Same article as S20
+C10,approved,reported_statistics,approved,approved,approved,no_duplicate,human,ok
+C11,approved,state_value,approved,approved,approved,duplicate_source,human,Same article as S18
+C15,approved,reported_statistics,approved,approved,approved,no_duplicate,human,Use explicit wins heading
+C17,pending,state_value,approved,approved,approved,no_duplicate,human,Ownership inferred from transactions
+C21,rejected,state_value,pending,pending,pending,duplicate_source,human,Prefer C07; dated coalition evidence
+C22,approved,reported_statistics,approved,approved,approved,no_duplicate,human,ok
+C23,pending,reported_statistics,approved,approved,approved,no_duplicate,human,Inconsistent source context
+S01,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S02,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S03,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S04,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S05,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S06,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S07,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S08,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S09,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S10,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S11,approved,stable,approved,approved,approved,duplicate_source,human,Same article as N06
+S12,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S13,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S14,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S15,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S16,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S17,approved,stable,approved,approved,revised,no_duplicate,human,Question: What nationality is the film What We Become described as? Answer: Danish
+S18,approved,stable,approved,approved,approved,duplicate_source,human,Same article as C11
+S19,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S20,approved,stable,approved,approved,approved,duplicate_source,human,Same article as C09
+N01,approved,reported_statistics,approved,approved,approved,no_duplicate,human,Preserve over 400
+N02,approved,state_value,approved,approved,approved,no_duplicate,human,ok
+N03,approved,state_value,approved,approved,approved,duplicate_source,human,Same article as N08
+N04,approved,state_value,approved,approved,revised,no_duplicate,human,Is Kingdom available to stream on Peacock?
+N05,approved,reported_statistics,approved,approved,approved,no_duplicate,human,ok
+N06,pending,reported_historical_statistics,approved,approved,approved,duplicate_source,,Same article as S11
+N07,pending,reported_historical_statistics,approved,approved,approved,no_duplicate,human,Historical reporting update
+N08,pending,reported_historical_statistics,approved,approved,approved,duplicate_source,human,Same article as N03
+N09,approved,reported_statistics,approved,approved,approved,no_duplicate,human,ok
+N10,pending,reported_statistics,approved,approved,approved,no_duplicate,human,Possible correction
+C24,approved,state_value,approved,approved,approved,no_duplicate,human,Reported venue change
+C25,approved,state_value,approved,approved,approved,no_duplicate,human,ok
+S21,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S22,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S23,approved,stable,approved,approved,approved,no_duplicate,human,ok
+S24,approved,stable,approved,approved,approved,no_duplicate,human,ok

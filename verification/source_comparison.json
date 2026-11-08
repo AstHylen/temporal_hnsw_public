@@ -1,0 +1,48 @@
+{
+  "_snapshot": {
+    "status": "historical",
+    "scope": "Original release verification, before subsequent code, documentation and review-metadata cleanup.",
+    "represents_current_repository": false,
+    "note": "Original measurements are retained unchanged. Hashes, file counts and equality flags describe that historical snapshot only."
+  },
+  "outcome_review.py": {
+    "original_sha256": "3d716c4568702e9b84bc86aaadd01a92b8521ff8cad068129485a64ededdc976",
+    "release_sha256": "3d716c4568702e9b84bc86aaadd01a92b8521ff8cad068129485a64ededdc976",
+    "identical": true
+  },
+  "preprocess.py": {
+    "original_sha256": "50d8c30a917925355498746bc64d7c81053c281e34ab8c60c9aa374f4f13850f",
+    "release_sha256": "50d8c30a917925355498746bc64d7c81053c281e34ab8c60c9aa374f4f13850f",
+    "identical": true
+  },
+  "scoring.py": {
+    "original_sha256": "54c4c75dbd95020dc2ccccdb52e403fabc3cc5ba8c7157897cf6e909931d99c8",
+    "release_sha256": "54c4c75dbd95020dc2ccccdb52e403fabc3cc5ba8c7157897cf6e909931d99c8",
+    "identical": true
+  },
+  "__init__.py": {
+    "original_sha256": "84cd88a2cd4667ac1af9a9b51bc9edc33bcd6ed09606cb5302cb8259cc31608a",
+    "release_sha256": "84cd88a2cd4667ac1af9a9b51bc9edc33bcd6ed09606cb5302cb8259cc31608a",
+    "identical": true
+  },
+  "common.py": {
+    "original_sha256": "653ead3fcdabae9297a3df0ce5ee62cd2aeddfcd1330e2c3b0fd538a33023d92",
+    "release_sha256": "fbf5fe95d2b722dbc9e6b94233696f399a74d21ea31b02e05e9edf65cbddce7a",
+    "identical": false
+  },
+  "retrieval.py": {
+    "original_sha256": "3f226fecfd8193889c215b61408541a3bc358c14b4e3e5219ceee34d08fca68d",
+    "release_sha256": "3f226fecfd8193889c215b61408541a3bc358c14b4e3e5219ceee34d08fca68d",
+    "identical": true
+  },
+  "indexing.py": {
+    "original_sha256": "607ee3eeff1d42c39c154c1f1a3054e14f023fbb1010c0f5d96a264e8902cb8e",
+    "release_sha256": "607ee3eeff1d42c39c154c1f1a3054e14f023fbb1010c0f5d96a264e8902cb8e",
+    "identical": true
+  },
+  "annotations.py": {
+    "original_sha256": "89e532cfcd60f877cd919e1a6a9b90f1663f13422a09ab502401030080cefb63",
+    "release_sha256": "89e532cfcd60f877cd919e1a6a9b90f1663f13422a09ab502401030080cefb63",
+    "identical": true
+  }
+}

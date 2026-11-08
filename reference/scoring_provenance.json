@@ -1,0 +1,39 @@
+{
+  "adjudication_protocol": "human-authorized hit-level early stopping; positive on confirmed passage or signed outcome with supporting ranks; negative on all confirmed 0 or signed complete-set negative",
+  "all_hit_outcomes_resolved": true,
+  "annotation_policy": "0 = no supporting evidence; 1 = explicit, current and relevant supporting evidence",
+  "existing_judgment_provenance": "manual_review.csv notes preserve human decisions versus exact-evidence reuse; no new automated relevance labels",
+  "explicit_human_outcome_count": 89,
+  "frozen_annotation_hashes": {
+    "config_sha256": "90756f452c9d5456a28163c913c0624a387570267308127f5b107e1175f34223",
+    "ground_truth_sha256": "ba63e2d4f7e76ae9cc1ea6fe883ec415814c309a075a409a2fb87fbb4c44ec41",
+    "num_ground_truth_rows": 240,
+    "num_questions": 40,
+    "processed_chunks_sha256": {
+      "D0": "8a40efb172dc427bd57b0afbaf43d35cb5a970383953364d9713e49af1541888",
+      "D1": "be8afcae8557181ce2039fca3ab2b645a0f416ea44b73765ab7ef64c9d2b2b50",
+      "D2": "e56e092659d7a9856b4ad07cf1b9d920fa196690455baccc752b68ceeb2b77e2",
+      "D3": "2da1ae086b0e9a630bcbdb5b18433fee906fbbc2b31f08f3c616bde8c3865d1d",
+      "D4": "1542a0c2a2924e1ac9aff9b098f8f5786177c4de93d1bdd2a8212898759175d8",
+      "D5": "bf8259b3f8d1ffd97c7012b956557d81bd353335dee861c950fcb60a0fafe668"
+    },
+    "questions_sha256": "61ffc0c209918a62408ee0639b07e0eb21086b623906ddd70f27b789f7f9bf0e",
+    "revision_manifest_sha256": "e2d5b4c5965fc75d64de560c09b7c1449e4bfa65419d640cbfb389b24ab061e1",
+    "selection_sha256": "9876f71a4df6b9cd33370c478e2735c0da77d5221db9c82d72982a8ad30abaa0",
+    "snapshot_labels": [
+      "D0",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ]
+  },
+  "full_manual_review": false,
+  "generalization_warning": "Changed/stable queries are purposively balanced; pooled results do not estimate natural user traffic.",
+  "metric_definition": "1 if any manually judged top-5 retrieved passage supports the current documented answer",
+  "outcome_review_sha256": "06ac18ac9f81e12b4582d6d8940d22fb2ef6703af04dc78bb487f3c41a5c7a75",
+  "retrieval_hits_sha256": "8400d9281e6a6722688bc079862577957a8e4383d8d9070c250cb84e79513f87",
+  "review_sha256": "d3af05acc12de843d4064442fa83cde6520b24fee9402c1de4a405bed58e17bf",
+  "uncertainty": "95% paired bootstrap percentile interval over query IDs, within snapshot and group"
+}

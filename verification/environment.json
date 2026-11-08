@@ -1,0 +1,38 @@
+{
+  "config_sha256": "90756f452c9d5456a28163c913c0624a387570267308127f5b107e1175f34223",
+  "configured_experiment_seed": 42,
+  "cpu_count": 10,
+  "disclosure": "Code developed with assistance from ChatGPT (OpenAI); scientific validation is the user's responsibility.",
+  "git_commit": null,
+  "machine": "arm64",
+  "package_versions": {
+    "PyYAML": "6.0.3",
+    "hnswlib": "0.8.0",
+    "matplotlib": "3.11.2",
+    "mwparserfromhell": "0.7.2",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "pytest": "9.2.0",
+    "requests": "2.34.2",
+    "sentence-transformers": "5.7.0",
+    "torch": "2.15.0"
+  },
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "recorded_at_utc": "2026-11-08T13:29:13.917017+00:00",
+  "source_sha256": {
+    "reproduce.py": "89e5f286f8e8d2b7eb4d176ab4fbdd76b375d42396c93224c6150ff794bcc463",
+    "temporal_hnsw/__init__.py": "84cd88a2cd4667ac1af9a9b51bc9edc33bcd6ed09606cb5302cb8259cc31608a",
+    "temporal_hnsw/annotations.py": "89e532cfcd60f877cd919e1a6a9b90f1663f13422a09ab502401030080cefb63",
+    "temporal_hnsw/common.py": "fbf5fe95d2b722dbc9e6b94233696f399a74d21ea31b02e05e9edf65cbddce7a",
+    "temporal_hnsw/indexing.py": "607ee3eeff1d42c39c154c1f1a3054e14f023fbb1010c0f5d96a264e8902cb8e",
+    "temporal_hnsw/outcome_review.py": "3d716c4568702e9b84bc86aaadd01a92b8521ff8cad068129485a64ededdc976",
+    "temporal_hnsw/preprocess.py": "50d8c30a917925355498746bc64d7c81053c281e34ab8c60c9aa374f4f13850f",
+    "temporal_hnsw/retrieval.py": "3f226fecfd8193889c215b61408541a3bc358c14b4e3e5219ceee34d08fca68d",
+    "temporal_hnsw/scoring.py": "54c4c75dbd95020dc2ccccdb52e403fabc3cc5ba8c7157897cf6e909931d99c8"
+  },
+  "torch_cuda_available": false,
+  "torch_cuda_device": null,
+  "note": "Fresh public-repository environment; verification did not access original files or model cache."
+}

@@ -1,0 +1,9 @@
+{
+  "all_confidence_intervals_exact": true,
+  "all_metric_rows_exact": true,
+  "hits": 392,
+  "misses": 88,
+  "mode": "full",
+  "resolved": 480,
+  "status": "PASS"
+}
